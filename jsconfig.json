@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "ignoreDeprecations": "6.0",
+    "checkJs": false
+  },
+  "exclude": ["node_modules", "dist"]
+}
