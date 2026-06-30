@@ -5,8 +5,8 @@ const LIVE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzYSIsI
 
 // 1. Pure Supabase client initialization
 export const supabase = createClient(
-  import.meta.env.VITE_SUPABASE_URL || LIVE_URL,
-  import.meta.env.VITE_SUPABASE_ANON_KEY || LIVE_KEY
+  import.meta.env.VITE_SUPABASE_URL, 
+  import.meta.env.VITE_SUPABASE_ANON_KEY
 );
 
 const getCurrentUserEmail = async () => {
